@@ -7,6 +7,24 @@
 
 基本就是提醒自己哪些日剧更新了。
 
+## 环境要求
+
+- python 3.5+
+
+- 库要求
+
+  >urllib
+  >
+  >datetime
+  >
+  >pickle
+  >
+  >tabulate
+  >
+  >bs4
+
+  上述库均可pip安装
+
 ## 基本逻辑
 
 - 使用`addBangumi.py` 脚本添加日剧信息，信息保存到`bangumiData.p`中
